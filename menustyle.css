@@ -1,0 +1,36 @@
+/* Стили для заголовков */
+h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+h2 {
+  font-size: 18px;
+  color: #666;
+}
+
+/* Стили для ссылок */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Сетка для размещения элементов */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+/* Анимация для элементов */
+.element {
+  transition: all 0.3s ease;
+}
+
+.element:hover {
+  transform: scale(1.1);
+}
